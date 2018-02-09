@@ -15,4 +15,10 @@
   "telephone" : "514-222-9233",
   "courriel" : "lucm@cmaisonneuve.qc.ca",
   "id": 3
-},{"prenom":"Chao","nom":"Tchun","tel":"514-123-4567","courriel":"tchun@live.fr"}
+},
+{
+  "nom":"Tchun Chao",
+  "telephone":"514-123-4567",
+  "courriel":"tchun@live.fr",
+  "id": "4"
+}

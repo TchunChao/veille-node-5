@@ -7,13 +7,13 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs'); // générateur de template
 
 app.get('/', function (req, res) {
-   s.readFile( __dirname + "/public/data/" + "membres.txt", 
+   fs.readFile( __dirname + "/public/data/" + "membres.txt", 
         'utf8',
         (err, data) => {
         	if (err) { return console.error(err);}
         	console.log( data );
         	let resultat = JSON.parse("[" + data + "]");           
-  res.render('gabarit.ejs', {addresses: resultat})
+  res.render('gabarit.ejs', {adresses: resultat})
   });
 })
 
