@@ -1,0 +1,5 @@
+Ouvrir C:\Program Files\MongoDB\Server\3.6\bin, click droit + shift sur le dossier, puis "Ouvrir la fenetre Powershell ici"
+./mongod --dbpath=C:/data/mongo/
+Ouvrir Mongo
+
+
